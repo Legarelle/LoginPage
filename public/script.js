@@ -1,14 +1,13 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDnH1oR0qNfPIkhYGhCU6vBUpmmX5IFd3c",
-    authDomain: "signinmockup.firebaseapp.com",
-    projectId: "signinmockup",
-    storageBucket: "signinmockup.firebasestorage.app",
-    messagingSenderId: "294517947345",
-    appId: "1:294517947345:web:d80afcc8e266e4d77bfef0",
-    measurementId: "G-MSTRR7FV9C"
+    apiKey: "YOUR_FIREBASE_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
-
 // Initialize Firebase (Compat version)
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
